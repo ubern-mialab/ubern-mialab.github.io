@@ -66,4 +66,4 @@ The site automatically deploys to GitHub Pages when changes are pushed to the `m
 
 ## Credits
 
-This website design is based on the [ubern-image-analysis](https://github.com/ubern-image-analysis/ubern-image-analysis.github.io) course website template.
+This website is maintained by the [MIA Lab](https://github.com/ubern-mialab) at the ARTORG Center, University of Bern. The website design is based on the [ubern-image-analysis](https://github.com/ubern-image-analysis/ubern-image-analysis.github.io) course website template.
