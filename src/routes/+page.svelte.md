@@ -1,12 +1,13 @@
 ---
 layout: default
+title: 'MIA Lab: Medical Image Analysis Laboratory'
 ---
 
 <script>
   import Calendar from "$lib/Calendar.svelte";
   import Instructor from "$lib/Instructor.svelte";
-  import { class_data } from "$lib/classData";
-  import { slack, github } from "$lib/constants";
+  import { class_data, fixupLink } from "$lib/classData";
+  import { github, code, artorg } from "$lib/constants";
 </script>
 
 # Medical Image Analysis Lab
@@ -15,20 +16,22 @@ Welcome to the Medical Image Analysis (MIA) Laboratory at the University of Bern
 
 ## Course Overview
 
-During the MIA Lab, you will work on the task of **brain tissue segmentation** from magnetic resonance (MR) images. You will implement and investigate a complete image analysis pipeline, including:
+During the MIA Lab, you will work on the task of **brain tissue segmentation** from magnetic resonance (MR) images (see [data](/topics/data/)). You will implement and investigate a complete [image analysis pipeline](/topics/pipeline/), including:
 
-- **Pre-processing**: Image normalization and intensity correction
-- **Registration**: Aligning images to a common reference space
-- **Feature extraction**: Computing informative features from images
-- **Voxel-wise tissue classification**: Machine learning for tissue segmentation
-- **Post-processing**: Refinement of segmentation results
-- **Evaluation**: Quantitative assessment of performance
+- **[Pre-processing](/topics/pipeline/pre-processing/)**: image normalization and intensity correction
+- **[Registration](/topics/pipeline/registration/)**: aligning images to a common reference space
+- **[Feature extraction](/topics/pipeline/feature-extraction/)**: computing informative features from images
+- **[Voxel-wise tissue classification](/topics/pipeline/classification/)**: machine learning for tissue segmentation
+- **[Post-processing](/topics/pipeline/post-processing/)**: refinement of segmentation results
+- **[Evaluation](/topics/pipeline/evaluation/)**: quantitative assessment of performance
 
-Throughout the laboratory, you will learn and use various libraries and software tools essential in the medical image analysis domain, while working on a real-world biomedical engineering challenge.
+Throughout the laboratory, you will learn and use [various libraries and software tools](/getting-started/tools/) essential in the medical image analysis domain, while working on a real-world biomedical engineering challenge, and investigate one of the elements of the pipeline in depth.
+
+Enjoy!
 
 ## Schedule
 
-The course runs from **September 2025 to January 2026** with lectures and lab sessions on **Wednesdays**.
+The course runs from **September 2025 to January 2026** with lectures and lab sessions on **Wednesdays**. See the [detailed schedule](/getting-started/schedule/) for which pages go with which lecture.
 
 <Calendar />
 
@@ -36,7 +39,13 @@ The course runs from **September 2025 to January 2026** with lectures and lab se
 
 <div class="instructor-container">
   {#each class_data.instructors as instructor}
-    <Instructor {instructor} />
+    <Instructor
+      name={instructor.name}
+      role={instructor.role}
+      email={instructor.email}
+      src={fixupLink(instructor.image)}
+      officeHours={instructor.officeHours ?? []}
+    />
   {/each}
 </div>
 
@@ -55,16 +64,18 @@ By the end of this course, you will be able to:
 
 The course is assessed through:
 
-- **Homework exercises** (3 exercises): Practice with image basics, pipeline implementation, and random forests
-- **Mid-term presentation** (20%): Present your project progress and methodology
-- **Final presentation** (30%): Present your complete project with results
-- **Final report** (50%): Conference paper formatted report
+- **[Homework exercises](/exercises/)** (3 exercises): practice with image basics, pipeline implementation, and random forests
+- **Mid-term presentation** (20%): present your project progress and methodology
+- **Final presentation** (30%): present your complete project with results
+- **Final report** (50%): conference paper formatted report
 
 ## Resources
 
-- **Course materials**: [GitBook documentation](https://ubern-mialab.gitbook.io/course/)
-- **Code repository**: Available through the course
-- **Contact**: Reach out to the instructors via email or during office hours
+- **[Getting started](/getting-started/)**: installation, tools, IDEs, the Ubelix HPC cluster, LaTeX, and visualization
+- **[Topics](/topics/)**: clinical background, the data, and each step of the pipeline
+- **[Exercises](/exercises/)**: the three homework exercises
+- **Code repository**: <a href={code}>ubern-mialab/mialab</a>, and the rest of the code in the <a href={github}>ubern-mialab GitHub organization</a>
+- **Contact**: reach out to the instructors via email or during office hours, [contact us on GitHub](https://github.com/orgs/ubern-mialab/people), or find us at the <a href={artorg}>MIA group at the ARTORG Center</a>
 
 ## Course Philosophy
 

@@ -18,10 +18,12 @@ The MIA Lab is a hands-on course where students work on brain tissue segmentatio
 This website is built using [SvelteKit](https://kit.svelte.dev/) and deployed via GitHub Pages. It provides:
 
 - Course schedule and overview
-- Information about topics covered
-- Getting started guide
+- Topic pages covering the clinical background, the data, and every step of the pipeline
+- Getting started guide: installation, tools, IDEs, the Ubelix HPC cluster, LaTeX, and visualization
 - Exercise descriptions
-- Links to comprehensive course materials on GitBook
+
+All course content lives in this repository. It was previously hosted on GitBook
+(`ubern-mialab.gitbook.io/course`), which has been retired in favour of these pages.
 
 ## Development
 
@@ -62,7 +64,7 @@ The site automatically deploys to GitHub Pages when changes are pushed to the `m
 - **Institution**: University of Bern, ARTORG Center
 - **Instructors**: Prof. Mauricio Reyes, Amith Kamath, Shelley Tong, Michael Fernandez
 - **Schedule**: Autumn 2025 (September 2025 - January 2026)
-- **Comprehensive Documentation**: [GitBook](https://ubern-mialab.gitbook.io/course/)
+- **Code**: [ubern-mialab/mialab](https://github.com/ubern-mialab/mialab)
 
 ## Credits
 

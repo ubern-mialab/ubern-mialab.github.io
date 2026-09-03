@@ -1,31 +1,34 @@
 ---
 layout: default
+title: 'MIA Lab: Topics'
 ---
 
 # Topics
 
-Explore the key concepts and techniques covered in the Medical Image Analysis Lab:
+Explore the key concepts and techniques covered in the Medical Image Analysis Lab.
 
-## Core Topics
+## Core topics
 
-### [Clinical Background](/topics/clinical-background)
+### [Clinical background](/topics/clinical-background/)
+
 Understanding the medical context and clinical significance of brain tissue segmentation.
 
-### [Data](/topics/data)
+### [Data](/topics/data/)
+
 Learn about the MR imaging data used in the course and its characteristics.
 
-### Pipeline Components
+### [Pipeline](/topics/pipeline/)
 
 The complete image analysis pipeline consists of several key stages:
 
-- **[Pre-processing](/topics/pre-processing)** - Image normalization and preparation
-- **[Registration](/topics/registration)** - Aligning images to common reference space
-- **[Feature Extraction](/topics/feature-extraction)** - Computing informative features from images
-- **[Voxel-wise Tissue Classification](/topics/classification)** - Machine learning for segmentation
-- **[Post-processing](/topics/post-processing)** - Refining segmentation results
-- **[Evaluation](/topics/evaluation)** - Quantitative assessment of performance
+- **[Pre-processing](/topics/pipeline/pre-processing/)** - image normalization and preparation
+- **[Registration](/topics/pipeline/registration/)** - aligning images to a common reference space
+- **[Feature extraction](/topics/pipeline/feature-extraction/)** - computing informative features from images
+- **[Voxel-wise tissue classification](/topics/pipeline/classification/)** - machine learning for segmentation
+- **[Post-processing](/topics/pipeline/post-processing/)** - refining segmentation results
+- **[Evaluation](/topics/pipeline/evaluation/)** - quantitative assessment of performance
 
-## Learning Path
+## Learning path
 
 These topics are covered progressively throughout the course:
 
@@ -34,4 +37,4 @@ These topics are covered progressively throughout the course:
 3. **Week 6**: Visualization and documentation
 4. **Weeks 7-14**: Project work applying these concepts
 
-For detailed information on each topic, visit the [course GitBook](https://ubern-mialab.gitbook.io/course/).
+See the [schedule](/getting-started/schedule/) for which pages belong to which lecture.
