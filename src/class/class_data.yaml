@@ -11,40 +11,28 @@ class_days:
 # Default assignment due time (24-hour format)
 assignment_due_time: "23:59"
 
-# Course instructors and teaching assistants
+# Course instructor and teaching assistants
 instructors:
-  - name: "Prof. Mauricio Reyes"
+  - name: "Prof. Dr. Mauricio Reyes"
     role: "Professor"
-    email: "mauricio.reyes@unibe.ch"
-    image: "/images/placeholder-instructor.jpg"
-    officeHours:
-      - when: "By appointment"
-        where: "ARTORG Center"
-        url: "https://www.artorg.unibe.ch/research/mia/index_eng.html"
-  - name: "Amith Kamath"
+    email: "mauricio.reyes@med.unibe.ch"
+    image: "/images/mauricio-reyes.jpg"
+  - name: "Haozhe Luo"
     role: "Teaching Assistant"
-    email: "amith.kamath@unibe.ch"
-    image: "/images/placeholder-ta.jpg"
-    officeHours:
-      - when: "By appointment"
-        where: "ARTORG Center"
-        url: ""
-  - name: "Shelley Zixin Shu"
+    email: "haozhe.luo@unibe.ch"
+    image: "/images/haozhe-luo.png"
+  - name: "Shelley Shu"
     role: "Teaching Assistant"
     email: "zixin.shu@unibe.ch"
-    image: "/images/placeholder-ta.jpg"
-    officeHours:
-      - when: "By appointment"
-        where: "ARTORG Center"
-        url: ""
-  - name: "Michael Mueller"
+    image: "/images/shelley-shu.png"
+  - name: "Francesco Nitti"
     role: "Teaching Assistant"
-    email: "michael.mueller3@unibe.ch"
-    image: "/images/placeholder-ta.jpg"
-    officeHours:
-      - when: "By appointment"
-        where: "ARTORG Center"
-        url: ""
+    email: "francesco.nitti@unibe.ch"
+    image: "/images/francesco-nitti.png"
+  - name: "Erika Spada"
+    role: "Teaching Assistant"
+    email: "erika.spada@unibe.ch"
+    image: "/images/erika-spada.png"
 
 # Course lectures
 lectures:

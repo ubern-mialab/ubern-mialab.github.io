@@ -35,7 +35,7 @@ The course runs from **September to December 2026** with lectures and lab sessio
 
 <Calendar />
 
-## Instructors
+## Teaching Team
 
 <div class="instructor-container">
   {#each class_data.instructors as instructor}

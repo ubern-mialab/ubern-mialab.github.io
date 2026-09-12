@@ -8,7 +8,7 @@
 </script>
 
 <div class="profile-image-container">
-  <img {src} alt={name} class="profile-image" />
+  <img {src} alt={name} class="profile-image" loading="lazy" width="150" height="150" />
   <div class="instructor-name">{name}</div>
   <div class="instructor-info">{role}</div>
   {#if email != null}

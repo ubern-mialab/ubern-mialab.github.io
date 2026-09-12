@@ -62,7 +62,7 @@ The site automatically deploys to GitHub Pages when changes are pushed to the `m
 ## Course Information
 
 - **Institution**: University of Bern, ARTORG Center
-- **Instructors**: Prof. Mauricio Reyes, Amith Kamath, Shelley Zixin Shu, Michael Mueller
+- **Teaching team**: Prof. Dr. Mauricio Reyes, Haozhe Luo, Shelley Shu, Francesco Nitti, Erika Spada
 - **Schedule**: Autumn 2026 (September - December 2026)
 - **Code**: [ubern-mialab/mialab](https://github.com/ubern-mialab/mialab)
 
