@@ -9,7 +9,7 @@ Welcome to the MIA Lab! This guide will help you set up your development environ
 
 ## On this section
 
-- [Schedule (Autumn 2025)](/getting-started/schedule/) - dates, and which pages go with which lecture
+- [Schedule (Autumn 2026)](/getting-started/schedule/) - dates, deadlines, and which pages go with each lecture
 - [Installation](/getting-started/installation/) - Python, git, and MATLAB setup
 - [Tools](/getting-started/tools/) - the software and libraries used in the course
   - [IDE](/getting-started/tools/ide/) - PyCharm, VS Code, and MATLAB

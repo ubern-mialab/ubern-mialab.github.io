@@ -31,7 +31,7 @@ Enjoy!
 
 ## Schedule
 
-The course runs from **September 2025 to January 2026** with lectures and lab sessions on **Wednesdays**. See the [detailed schedule](/getting-started/schedule/) for which pages go with which lecture.
+The course runs from **September to December 2026** with lectures and lab sessions on **Wednesdays**. See the [detailed schedule](/getting-started/schedule/) for which pages go with which lecture.
 
 <Calendar />
 
@@ -64,10 +64,11 @@ By the end of this course, you will be able to:
 
 The course is assessed through:
 
-- **[Homework exercises](/exercises/)** (3 exercises): practice with image basics, pipeline implementation, and random forests
-- **Mid-term presentation** (20%): present your project progress and methodology
-- **Final presentation** (30%): present your complete project with results
-- **Final report** (50%): conference paper formatted report
+- **[Coding exercises](/exercises/)**: practice with image basics, pipeline implementation, and random forests
+- **Written multiple-choice exam** (40%): December 2, 2026
+- **Final presentation** (60%): December 9 or December 16, 2026, with 10 minutes per group plus 2 minutes for questions
+
+There will also be a formative **mid-term presentation** on November 11, 2026. Each group will have up to 5 minutes to present its approach, progress, challenges, and insights.
 
 ## Resources
 

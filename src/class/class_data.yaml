@@ -1,8 +1,8 @@
 # Course Configuration for Medical Image Analysis Lab
 # University of Bern - ARTORG Center for Biomedical Engineering Research
 
-# Course start date (YYYY/MM/DD format) - Autumn 2025
-start_date: 2025/09/17
+# Course start date (YYYY/MM/DD format) - Autumn 2026
+start_date: 2026/09/16
 
 # Days of the week when classes are held
 class_days:
@@ -48,127 +48,134 @@ instructors:
 
 # Course lectures
 lectures:
-  # Week 1 - 17/09/2025
+  # Week 1 - 16/09/2026
   - topic: "Introduction to Medical Image Analysis"
-    date: "2025/09/17"
+    date: "2026/09/16"
     materials:
       #       slides: "/slides/week1.pdf"
     assignments: []
     
-  # Week 2 - 24/09/2025 - MICCAI Conference
+  # Week 2 - 23/09/2026
+  - topic: "Software Development Tools"
+    date: "2026/09/23"
+    materials:
+      #       slides: "/slides/week2.pdf"
+    assignments: []
+
+  # Week 3 - 30/09/2026 - MICCAI Conference
   - topic: "No lecture (MICCAI Conference)"
-    date: "2025/09/24"
+    date: "2026/09/30"
+    holiday: true
     materials: {}
     assignments: []
 
-  # Week 3 - 01/10/2025
-  - topic: "Software Development Tools"
-    date: "2025/10/01"
-    materials:
-      #       slides: "/slides/week3.pdf"
-    assignments: []
-
-  # Week 4 - 08/10/2025
-  - topic: "Pre-processing and Registration"
-    date: "2025/10/08"
+  # Week 4 - 07/10/2026
+  - topic: "Registration and Pre-/Post-processing"
+    date: "2026/10/07"
     materials:
       #       slides: "/slides/week4.pdf"
     assignments: []
 
-  # Week 5 - 15/10/2025
-  - topic: "Feature Extraction & Classification"
-    date: "2025/10/15"
+  # Week 5 - 14/10/2026
+  - topic: "Feature Extraction & Machine Learning"
+    date: "2026/10/14"
     materials:
       #       slides: "/slides/week5.pdf"
     assignments: []
 
-  # Week 6 - 22/10/2025
-  - topic: "LaTeX and Visualization"
-    date: "2025/10/22"
+  # Week 6 - 21/10/2026
+  - topic: "Visualization, Scientific Writing & LaTeX"
+    date: "2026/10/21"
     materials:
       #       slides: "/slides/week6.pdf"
     assignments: []
 
   # Week 7, 8 - Project discussion/feedback
   - topic: "Project Discussion & Feedback"
-    date: "2025/10/29"
+    date: "2026/10/28"
     materials: {}
     assignments: []
 
   - topic: "Project Discussion & Feedback"
-    date: "2025/11/05"
+    date: "2026/11/04"
     materials: {}
     assignments: []
 
-  # Week 9 - 12/11/2025
+  # Week 9 - 11/11/2026
   - topic: "Mid-term Presentations"
-    date: "2025/11/12"
+    date: "2026/11/11"
     materials: {}
     assignments: []
 
   # Week 10, 11 - Project discussion/feedback
   - topic: "Project Discussion & Feedback"
-    date: "2025/11/19"
+    date: "2026/11/18"
     materials: {}
     assignments: []
 
   - topic: "Project Discussion & Feedback"
-    date: "2025/11/26"
+    date: "2026/11/25"
     materials: {}
     assignments: []
 
-  # Week 12 - 03/12/2025
-  - topic: "Clinic Tour"
-    date: "2025/12/03"
+  # Week 12 - 02/12/2026
+  - topic: "Written Multiple-choice Exam (40%)"
+    date: "2026/12/02"
     materials: {}
     assignments: []
 
-  # Week 13
-  - topic: "Project Discussion & Feedback"
-    date: "2025/12/10"
+  # Week 13 - 09/12/2026
+  - topic: "Final Presentations (60%) - Session 1"
+    date: "2026/12/09"
     materials: {}
     assignments: []
 
-  # Week 14 - 17/12/2025
-  - topic: "Final Presentations"
-    date: "2025/12/17"
+  # Week 14 - 16/12/2026
+  - topic: "Final Presentations (60%) - Session 2"
+    date: "2026/12/16"
     materials: {}
     assignments: []
 
 # Course assignments and exercises
 assignments:
   - name: "Exercise: Image Basics"
-    due: "2025/10/08"
+    due: "2026/10/07"
     points: 0
     materials:
       #       handout: "/assignments/image-basics.pdf"
       
   - name: "Exercise: Pipeline"
-    due: "2025/10/15"
+    due: "2026/10/14"
     points: 0
     materials:
       #       handout: "/assignments/pipeline.pdf"
       
   - name: "Exercise: Random Forest"
-    due: "2025/10/22"
+    due: "2026/10/21"
     points: 0
     materials:
       #       handout: "/assignments/random-forest.pdf"
       
-  - name: "Mid-term Presentation"
-    due: "2025/11/12"
-    points: 20
+  - name: "Group Formation and GitHub Repository Link"
+    due: "2026/10/15"
+    points: 0
     materials: {}
-    details: "Present your project progress and methodology to date."
+    details: "Confirm your group and provide a link to the group's GitHub repository."
+
+  - name: "Mid-term Presentation"
+    due: "2026/11/11"
+    points: 0
+    materials: {}
+    details: "Present your approach, progress, challenges, and insights in up to five minutes."
+
+  - name: "Written Multiple-choice Exam"
+    due: "2026/12/02"
+    points: 40
+    materials: {}
+    details: "Written multiple-choice exam."
       
   - name: "Final Presentation"
-    due: "2025/12/17"
-    points: 30
+    due: "2026/12/16"
+    points: 60
     materials: {}
-    details: "Present your complete project with results and analysis."
-      
-  - name: "Final Report"
-    due: "2026/01/07"
-    points: 50
-    materials: {}
-    details: "Conference paper formatted report documenting your complete project."
+    details: "Present your complete project in one of two sessions (December 9 or 16): ten minutes plus two minutes for questions."
