@@ -17,13 +17,13 @@ Libraries here = [numpy](https://numpy.org), [SimpleITK](https://simpleitk.org).
 
 ## Getting started
 
-This exercise is organized using GitHub Classroom, where every time you commit a change, it automatically runs the test script and evaluates if you did the right thing or not. To attempt the assignment: [https://classroom.github.com/a/zarh_Oy7](https://classroom.github.com/a/zarh_Oy7)
+GitHub Classroom is no longer used. Start by opening the [image basics starter repository](https://github.com/ubern-mialab/01-image-basics), selecting **Fork**, and creating the fork under your own GitHub account.
 
-This should create a private repository for you. Then, you can simply open the script `image_basics.py` and edit it, all within the browser or clone it to work on it.
+Clone your fork and edit `image_basics.py`, or edit the file directly in the browser.
 
 <Callout info>
 
-Note that you'll have to change the location of the repository from `/ubern-mialab/` to `/<your-GitHub-username>/` in the above links, once you have forked correctly.
+Work in `/<your-GitHub-username>/01-image-basics`, not in the `ubern-mialab` starter repository. If GitHub asks you to enable workflows in your fork, open the **Actions** tab and enable them.
 
 </Callout>
 
@@ -33,7 +33,7 @@ Then, wait for the cogwheels to run: GitHub runs its 'actions' behind the scenes
 
 The goal really is to get the green ✅ every time you make a change, which will only happen when all the functions are completed correctly (correctly as defined by the tests in `test_image_basics.py`, please don't cheat ;-)). Clicking on the check mark will show more details about completion of the homework.
 
-Once you're done, please share a link to your fork with us, so we can confirm you've completed the assignment for the bonus grade (if such a need arises).
+Once you're done, please share both the link to your fork and the URL or SHA of your final commit with us, so we can confirm you've completed the assignment for the bonus grade (if such a need arises).
 
 ## Tasks and specifics
 

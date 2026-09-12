@@ -20,6 +20,8 @@ Learn the fundamentals of working with medical images:
 
 [Detailed instructions](/exercises/image-basics/)
 
+[Starter repository](https://github.com/ubern-mialab/01-image-basics)
+
 ## [Exercise 2: Pipeline](/exercises/pipeline/)
 
 **Due: Week 4**
@@ -32,6 +34,8 @@ Implement key components of the image processing pipeline:
 - Integrating components into a workflow
 
 [Detailed instructions](/exercises/pipeline/)
+
+[Starter repository](https://github.com/ubern-mialab/ubern-mialab-2025-pipeline-02-pipeline)
 
 ## [Exercise 3: Random forest](/exercises/random-forest/)
 
@@ -46,13 +50,18 @@ Apply machine learning to medical image analysis:
 
 [Detailed instructions](/exercises/random-forest/)
 
+[Starter repository](https://github.com/ubern-mialab/ubern-mialab-2025-random-forest-03-classifier)
+
 ## How to submit
 
-Submit your exercises according to the instructions provided during the course. These exercises are designed to:
+GitHub Classroom is no longer used. For each exercise:
 
-1. Build practical skills with medical imaging tools
-2. Prepare you for the main project
-3. Give you hands-on experience with each pipeline component
+1. Open the starter repository linked above and select **Fork**.
+2. Create the fork under your own GitHub account. Do not push changes to the `ubern-mialab` starter repository.
+3. Clone your fork, complete the exercise, then commit and push your work to your fork.
+4. Submit both the URL of your fork and the URL or SHA of your final commit through the course submission channel.
+
+If a starter repository displays a 404 page, contact a teaching assistant to request access before forking it.
 
 ## Getting help
 
