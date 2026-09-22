@@ -39,7 +39,7 @@ Implement key components of the image processing pipeline:
 
 ## [Exercise 3: Random forest](/exercises/random-forest/)
 
-**Due: 4 November 2026**
+**Due: 28 October 2026**
 
 Apply machine learning to medical image analysis:
 

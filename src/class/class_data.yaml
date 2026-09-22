@@ -141,7 +141,7 @@ assignments:
       #       handout: "/assignments/pipeline.pdf"
       
   - name: "Exercise: Random Forest"
-    due: "2026/11/04"
+    due: "2026/10/28"
     url: "/exercises/random-forest/"
     points: 0
     materials:
