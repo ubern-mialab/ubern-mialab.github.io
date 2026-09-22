@@ -44,7 +44,7 @@ lectures:
     assignments: []
     
   # Week 2 - 23/09/2026
-  - topic: "Software Development Tools"
+  - topic: "Registration and Pre-/Post-processing"
     date: "2026/09/23"
     materials:
       #       slides: "/slides/week2.pdf"
@@ -58,21 +58,21 @@ lectures:
     assignments: []
 
   # Week 4 - 07/10/2026
-  - topic: "Registration and Pre-/Post-processing"
+  - topic: "Feature Extraction & Machine Learning"
     date: "2026/10/07"
     materials:
       #       slides: "/slides/week4.pdf"
     assignments: []
 
   # Week 5 - 14/10/2026
-  - topic: "Feature Extraction & Machine Learning"
+  - topic: "Visualization, Scientific Writing & LaTeX"
     date: "2026/10/14"
     materials:
       #       slides: "/slides/week5.pdf"
     assignments: []
 
   # Week 6 - 21/10/2026
-  - topic: "Visualization, Scientific Writing & LaTeX"
+  - topic: "Project Discussion & Feedback"
     date: "2026/10/21"
     materials:
       #       slides: "/slides/week6.pdf"

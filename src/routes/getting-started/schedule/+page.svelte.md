@@ -10,11 +10,11 @@ Dates, and the correspondence between the pages on this site and the lectures in
 | Date | Week and topic | Relevant pages and activities | Deadlines |
 | --- | --- | --- | --- |
 | 16/09/2026 | Week 1: Introduction | [Installation](/getting-started/installation/)<br>[Clinical Background](/topics/clinical-background/)<br>[Pipeline](/topics/pipeline/)<br>Coding assessments | None |
-| 23/09/2026 | Week 2: Software Development Tools | [Data](/topics/data/)<br>[Tools](/getting-started/tools/)<br>[Integrated Development Environment](/getting-started/tools/ide/) | [Image Basics](/exercises/image-basics/) |
+| 23/09/2026 | Week 2: Registration and Pre-/Post-processing | [Pre-processing](/topics/pipeline/pre-processing/)<br>[Registration](/topics/pipeline/registration/)<br>[Post-processing](/topics/pipeline/post-processing/) | [Image Basics](/exercises/image-basics/) |
 | 30/09/2026 | Week 3 | **No lecture**: the teaching team is attending [MICCAI 2026](https://conferences.miccai.org/2026/) | None |
-| 07/10/2026 | Week 4: Registration and Pre-/Post-processing | [Pre-processing](/topics/pipeline/pre-processing/)<br>[Registration](/topics/pipeline/registration/)<br>[Post-processing](/topics/pipeline/post-processing/) | [Pipeline](/exercises/pipeline/) |
-| 14/10/2026 | Week 5: Feature Extraction and Machine Learning | [Feature Extraction](/topics/pipeline/feature-extraction/)<br>[Voxel-wise Tissue Classification](/topics/pipeline/classification/)<br>[Evaluation](/topics/pipeline/evaluation/)<br>Confirm groups | [Random Forest](/exercises/random-forest/)<br>Group formation and GitHub repository link due 15/10/2026 |
-| 21/10/2026 | Week 6: Visualization and Scientific Writing | [LaTeX](/getting-started/latex/)<br>[Visualization](/getting-started/visualization/)<br>[Ubelix HPC](/getting-started/tools/ubelix-hpc/) | None |
+| 07/10/2026 | Week 4: Feature Extraction and Machine Learning | [Feature Extraction](/topics/pipeline/feature-extraction/)<br>[Voxel-wise Tissue Classification](/topics/pipeline/classification/)<br>[Evaluation](/topics/pipeline/evaluation/) | [Pipeline](/exercises/pipeline/) |
+| 14/10/2026 | Week 5: Visualization and Scientific Writing | [LaTeX](/getting-started/latex/)<br>[Visualization](/getting-started/visualization/)<br>[Ubelix HPC](/getting-started/tools/ubelix-hpc/)<br>Confirm groups | [Random Forest](/exercises/random-forest/)<br>Group formation and GitHub repository link due 15/10/2026 |
+| 21/10/2026 | Week 6 | Project discussion and feedback | None |
 | 28/10/2026 | Week 7 | Project discussion and feedback | None |
 | 04/11/2026 | Week 8 | Project discussion and feedback | None |
 | 11/11/2026 | Week 9 | Mid-term presentations: up to 5 minutes per group on approach, progress, challenges, and insights | Mid-term presentation |
