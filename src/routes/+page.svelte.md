@@ -66,7 +66,7 @@ The course is assessed through:
 
 - **[Coding exercises](/exercises/)**: practice with image basics, pipeline implementation, and random forests
 - **Written multiple-choice exam** (40%): December 2, 2026
-- **Final presentation** (60%): December 9 or December 16, 2026, with 10 minutes per group plus 2 minutes for questions
+- **Final presentation** (60%): December 9 or December 16, 2026, with a 15-minute presentation plus 5 minutes for questions
 
 There will also be a formative **mid-term presentation** on November 11, 2026. Each group will have up to 5 minutes to present its approach, progress, challenges, and insights.
 

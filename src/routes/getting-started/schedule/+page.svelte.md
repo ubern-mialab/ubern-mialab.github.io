@@ -21,7 +21,7 @@ Dates, and the correspondence between the pages on this site and the lectures in
 | 18/11/2026 | Week 10 | Project discussion and feedback | None |
 | 25/11/2026 | Week 11 | Project discussion and feedback | None |
 | 02/12/2026 | Week 12 | Written multiple-choice exam (40%) | Written exam |
-| 09/12/2026 | Week 13 | Final presentations (60%), session 1: 10 minutes per group plus 2 minutes for questions | Final presentation, session 1 |
-| 16/12/2026 | Week 14 | Final presentations (60%), session 2: 10 minutes per group plus 2 minutes for questions | Final presentation, session 2 |
+| 09/12/2026 | Week 13 | Final presentations (60%), session 1: 15-minute presentation plus 5 minutes for questions | Final presentation, session 1 |
+| 16/12/2026 | Week 14 | Final presentations (60%), session 2: 15-minute presentation plus 5 minutes for questions | Final presentation, session 2 |
 
 We understand you have a [heavy course load](https://www.bme.master.unibe.ch/unibe/portal/fak_medizin/micro_mbmeng/content/e278504/e278505/e1092234/rightcol1092240/Course-Structure_from-fall-22_2023-05-15_eng.pdf) each semester, and so the teaching content in this course is front-loaded, while the project content is rear-loaded. The broad distribution of topics is indicated above; however, it is subject to change.
