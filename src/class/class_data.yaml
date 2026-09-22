@@ -128,18 +128,21 @@ lectures:
 assignments:
   - name: "Exercise: Image Basics"
     due: "2026/10/07"
+    url: "/exercises/image-basics/"
     points: 0
     materials:
       #       handout: "/assignments/image-basics.pdf"
       
   - name: "Exercise: Pipeline"
     due: "2026/10/21"
+    url: "/exercises/pipeline/"
     points: 0
     materials:
       #       handout: "/assignments/pipeline.pdf"
       
   - name: "Exercise: Random Forest"
     due: "2026/11/04"
+    url: "/exercises/random-forest/"
     points: 0
     materials:
       #       handout: "/assignments/random-forest.pdf"

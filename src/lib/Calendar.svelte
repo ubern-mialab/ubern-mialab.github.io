@@ -18,6 +18,24 @@
   } from './classData';
 
   const weekdays = class_data.class_days.length;
+
+  function assignmentsForLecture(lectureIndex) {
+    const lecture = class_data.lectures[lectureIndex];
+    const nextLecture = class_data.lectures[lectureIndex + 1];
+    const weekStart = moment(lecture.date, 'YYYY/MM/DD').startOf('day');
+    const weekEnd = nextLecture
+      ? moment(nextLecture.date, 'YYYY/MM/DD').startOf('day')
+      : weekStart.clone().add(1, 'week');
+
+    return class_data.assignments.filter((assignment) => {
+      const due = moment(assignment.due, 'YYYY/MM/DD').startOf('day');
+      return due.isSameOrAfter(weekStart) && due.isBefore(weekEnd);
+    });
+  }
+
+  function formatDueDate(date) {
+    return moment(date, 'YYYY/MM/DD').format('MMM D');
+  }
 </script>
 
 <div class="calendar">
@@ -47,17 +65,21 @@
           {:else}
             <Materials />
           {/if}
-          {#if lecture.assignments}
-            <Assignments>
-              {#each lecture.assignments as assignment}
-                <a href={fixupLink(`/assignments/assign${assignment}`)}
-                  >Assignment {assignment}</a
-                >
-              {/each}
-            </Assignments>
-          {:else}
-            <Assignments />
-          {/if}
+          <Assignments>
+            {#each assignmentsForLecture(i * weekdays + j) as assignment}
+              {#if assignment.url}
+                <a class="deadline" href={fixupLink(assignment.url)}>
+                  <span>{assignment.name}</span>
+                  <small>Due {formatDueDate(assignment.due)}</small>
+                </a>
+              {:else}
+                <span class="deadline">
+                  <span>{assignment.name}</span>
+                  <small>Due {formatDueDate(assignment.due)}</small>
+                </span>
+              {/if}
+            {/each}
+          </Assignments>
         </Day>
       {/each}
     </Week>
@@ -67,5 +89,15 @@
 <style>
   .calendar {
     margin-top: 20px;
+  }
+
+  .deadline {
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 1.25;
+  }
+
+  .deadline small {
+    color: #666;
   }
 </style>
