@@ -9,7 +9,7 @@ Throughout the MIA Lab, you'll complete several practical exercises to build you
 
 ## [Exercise 1: Image basics](/exercises/image-basics/)
 
-**Due: Week 3**
+**Due: 7 October 2026**
 
 Learn the fundamentals of working with medical images:
 
@@ -24,7 +24,7 @@ Learn the fundamentals of working with medical images:
 
 ## [Exercise 2: Pipeline](/exercises/pipeline/)
 
-**Due: Week 4**
+**Due: 21 October 2026**
 
 Implement key components of the image processing pipeline:
 
@@ -39,7 +39,7 @@ Implement key components of the image processing pipeline:
 
 ## [Exercise 3: Random forest](/exercises/random-forest/)
 
-**Due: Week 5**
+**Due: 4 November 2026**
 
 Apply machine learning to medical image analysis:
 

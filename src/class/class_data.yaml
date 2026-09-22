@@ -133,13 +133,13 @@ assignments:
       #       handout: "/assignments/image-basics.pdf"
       
   - name: "Exercise: Pipeline"
-    due: "2026/10/14"
+    due: "2026/10/21"
     points: 0
     materials:
       #       handout: "/assignments/pipeline.pdf"
       
   - name: "Exercise: Random Forest"
-    due: "2026/10/21"
+    due: "2026/11/04"
     points: 0
     materials:
       #       handout: "/assignments/random-forest.pdf"
