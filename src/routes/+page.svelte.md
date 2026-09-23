@@ -74,7 +74,7 @@ There will also be a formative **mid-term presentation** on November 11, 2026. E
 
 - **[Getting started](/getting-started/)**: installation, tools, IDEs, the Ubelix HPC cluster, LaTeX, and visualization
 - **[Topics](/topics/)**: clinical background, the data, and each step of the pipeline
-- **[Download course data (MIAlab_data.zip)](https://unibe365-my.sharepoint.com/:u:/r/personal/zixin_shu_unibe_ch/Documents/teach/2026-Fall-MIALab/content/02_20260923_tools/MIAlab_data.zip?d=w7d65d1a4e38347738d68c96d5274a4b4&csf=1&web=1&e=jVjgdz&xsdata=MDV8MDJ8aGFvemhlLmx1b0B1bmliZS5jaHxmODVjNmEyZjVkZmM0M2YzMjkyNTA4ZGYxOGJiOGFkYXxkNDAwMzg3YTIxMmY0M2VhYWM3Zjc3YWExMmQ3OTc3ZXwxfDB8NjM5MjU2ODY1ODk0MzU2MjgxfFVua25vd258VFdGcGJHWnNiM2Q4ZXlKRmJYQjBlVTFoY0draU9uUnlkV1VzSWxZaU9pSXdMakF1TURBd01DSXNJbEFpT2lKWGFXNHpNaUlzSWtGT0lqb2lUV0ZwYkNJc0lsZFVJam95ZlE9PXwwfHx8&sdata=U0F6Z1NYZmd1Z0ZtMTdEcWEyMUhicmNkUmZTNGI2aVltZFg2cjdmc1RuST0%3d)**: dataset for the course exercises and project
+- **[Download course data (MIAlab_data.zip)](https://unibe365-my.sharepoint.com/:u:/g/personal/zixin_shu_unibe_ch/IQCk0WV9g-NzR41oyW1SdKS0AbyN36c2kTSH2HbBXKwEN-s?e=uD4VGQ)**: dataset for the course exercises and project
 - **[Exercises](/exercises/)**: the three homework exercises
 - **Code repository**: <a href={code}>ubern-mialab/mialab</a>, and the rest of the code in the <a href={github}>ubern-mialab GitHub organization</a>
 - **Contact**: reach out to the instructors via email or during office hours, [contact us on GitHub](https://github.com/orgs/ubern-mialab/people), or find us at the <a href={artorg}>MIA group at the ARTORG Center</a>
